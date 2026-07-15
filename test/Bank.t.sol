@@ -20,7 +20,7 @@ contract BankTest is Test {
         assertTrue(isActive);
     }
 
-     // пополнение баланса
+    // пополнение баланса
     function test_DepositSuccess() public {
         bank.activate();
         bank.deposit(100);
